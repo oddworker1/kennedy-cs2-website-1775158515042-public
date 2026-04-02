@@ -1,0 +1,1 @@
+const lines=['Dust II is heating up','Inferno is lit for next round','AWP only until end of round'];let i=0;const status=document.getElementById('status');const btn=document.getElementById('go');status.textContent=lines[i];btn.addEventListener('click',()=>{i=(i+1)%lines.length;status.textContent=lines[i];});
